@@ -1,0 +1,26 @@
+{
+  "name": "notepad-backend",
+  "author": {
+    "name": "Yuriy Vyatkin"
+  },
+  "license": "Mozilla Public License 2.0",
+  "repository": "https://github.com/yuriyvyatkin/notepad-backend",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
